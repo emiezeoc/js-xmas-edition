@@ -25,4 +25,20 @@ function validarNombre(nombre){
 }
 
 
+// TAREA: Crear de la misma forma, validar ciudad, validar descripcionRegalo
 
+//Escribir pruebas para las funciones de las tareas 5 y 6
+
+function validarCiudad(ciudad){
+    if(ciudad === "") {
+        return "Seleccionar una ciudad"
+    }
+    return "";
+}
+
+function validarDescripcionRegalo(descripcionRegalo){
+    if(descripcionRegalo <= 15) {
+        return "Este campo debe tener al menos 15 caracteres"
+    }
+    return "";
+}
